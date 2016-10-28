@@ -13,6 +13,9 @@
   </head>
   <body>
     <!-- Appbar--->
+    <!--48px (phone landscape)
+        56px (phone portrait)
+        64px (default)-->
     <div class="mui-appbar">
 
     <!-- Appbar Helpers-->
@@ -25,14 +28,13 @@
     </tr>
       </table>
     </div>
-    <main>
-      <div class="Container clickMe" align="center" >
-        <button class="mui-btn mui-btn--fab" onclick="buttonMaker()">+</button>
-        <button class="mui-btn mui-btn--flat mui-btn--primary" onclick="buttonMaker()">Button</button>
-        <button class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger" onclick="buttonMaker()">Button</button>
-        <button class="mui-btn mui-btn--accent" disabled>Button</button>
-      </div>
-    </main>
+
+    <div class="mui-container-fluid" align="center" >
+      <button class="mui-btn mui-btn--fab" onclick="buttonMaker()">+</button>
+      <button class="mui-btn mui-btn--flat mui-btn--primary" onclick="buttonMaker()">Button</button>
+      <button class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger" onclick="buttonMaker()">Button</button>
+      <button class="mui-btn mui-btn--accent" disabled>Button</button>
+    </div>
     <div class="mui-divider"></div>
   </body>
 </html>
