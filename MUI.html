@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning MUI</title>
+    <!--javaScript to demonstrate dynamic added elements-->
+    <script type="text/javascript" src="./muiScript.js"></script>
+    <!--load MUI-->
+    <link href="./mui-0.9.3 2/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="./mui-0.9.3 2/js/mui.min.js"></script>
+  </head>
+  <body>
+    <!-- Appbar--->
+    <div class="mui-appbar">
+
+    <!-- Appbar Helpers-->
+
+  <table width="100%">
+    <tr style="vertical-align:middle;">
+      <td class="mui--appbar-height">Left Side</td>
+      <td align="center"><h1>BUTTONS!!!</h1></td>
+      <td class="mui--appbar-height" align="right">Right Side</td>
+    </tr>
+      </table>
+    </div>
+    <main>
+      <div class="Container clickMe" align="center" >
+        <button class="mui-btn mui-btn--fab" onclick="buttonMaker()">+</button>
+        <button class="mui-btn mui-btn--flat mui-btn--primary" onclick="buttonMaker()">Button</button>
+        <button class="mui-btn mui-btn--large mui-btn--raised mui-btn--danger" onclick="buttonMaker()">Button</button>
+        <button class="mui-btn mui-btn--accent" disabled>Button</button>
+      </div>
+    </main>
+    <div class="mui-divider"></div>
+  </body>
+</html>
